@@ -2,10 +2,12 @@
 
 Landing page for **The Income Equation** by Vlad Ost. Hosted on GitHub Pages at [theincomeequation.com](https://theincomeequation.com).
 
+**Quick checklist:** See **YOUR-STEPS.md** for the short list of steps that only you can do (GitHub, Namecheap, Substack URL, your text, cover image).
+
 ## What to do before publishing
 
 1. **Book cover**  
-   Export your Canva cover and save it as `images/cover.png` (or `cover.jpg`). The page already references `images/cover.png`; if you use another name, update the `src` in `index.html`.
+   A placeholder is shown until you add your cover. Export your Canva cover and save it as `images/cover.png` (or `cover.jpg` and update the `src` in `index.html`). The page will then show it automatically.
 
 2. **Book description**  
    Replace the placeholder tagline in `index.html` (inside the `<p class="tagline">` block) with your short, catchy text.
