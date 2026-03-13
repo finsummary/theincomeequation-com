@@ -39,16 +39,11 @@ Site will be at `https://YOUR-USERNAME.github.io/YOUR-REPO/` until you add the c
 
 ---
 
-## 4. Content only you have
+## 4. Content (already done)
 
-- **Substack**: In `index.html` replace `https://YOUR-SUBSTACK-URL.substack.com` with your real Substack URL.
-- **Book text**: In `index.html` replace the text inside `<p class="tagline">...</p>` with your short catchy description.
-- **Cover**: Export your Canva cover and save as `images/cover.png` in this folder (or `cover.jpg` and change the `src` in `index.html` to `images/cover.jpg`). Then run:
-  ```bash
-  git add images/cover.png
-  git commit -m "Add book cover"
-  git push
-  ```
+- **Substack**: Set to https://theincomeequation.substack.com/
+- **Book text**: Your title, subtitle, and full description are in place.
+- **Cover**: Your Canva cover is in `images/cover.png`. To update it later, replace that file and push.
 
 ---
 
