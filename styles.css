@@ -93,6 +93,16 @@ body {
   vertical-align: middle;
 }
 
+.cover-section .btn-amazon {
+  margin-top: 1.25rem;
+  background: #232f3e;
+  color: #fff;
+}
+
+.cover-section .btn-amazon:hover {
+  background: #37475a;
+}
+
 /* If cover image fails to load, show minimum height */
 .cover-wrap:has(.cover-img) {
   min-height: 320px;
