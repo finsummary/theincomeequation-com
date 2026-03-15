@@ -103,6 +103,34 @@ body {
   background: #37475a;
 }
 
+.stores-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 1rem 0 0.4rem;
+}
+
+.stores-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-store {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.btn-store:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
 /* If cover image fails to load, show minimum height */
 .cover-wrap:has(.cover-img) {
   min-height: 320px;
