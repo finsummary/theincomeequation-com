@@ -81,7 +81,6 @@ body {
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 12px 40px var(--shadow), 0 0 0 1px var(--border);
-  background: var(--border);
 }
 
 .cover-img {
@@ -109,30 +108,34 @@ body {
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
-  margin-top: 0.85rem;
+  margin-top: 1.25rem;
 }
 
-.stores-links {
+.stores-regions {
+  margin-top: 1.25rem;
+  text-align: left;
+  max-width: 36rem;
+}
+
+.region-line {
   font-size: 0.8rem;
   color: var(--muted);
-  margin: 1rem 0 0;
-  line-height: 1.6;
+  margin: 0 0 0.5rem;
+  line-height: 1.55;
 }
 
-.stores-links a {
+.region-line:last-child {
+  margin-bottom: 0;
+}
+
+.region-line a {
   color: var(--muted);
   text-decoration: none;
 }
 
-.stores-links a:hover {
+.region-line a:hover {
   color: var(--text);
   text-decoration: underline;
-}
-
-.stores-links .sep {
-  margin: 0 0.35rem;
-  color: var(--border);
-  user-select: none;
 }
 
 .btn-store {
