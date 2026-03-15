@@ -103,18 +103,36 @@ body {
   background: #37475a;
 }
 
-.stores-label {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin: 1rem 0 0.4rem;
-}
-
 .stores-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
+  margin-top: 0.85rem;
+}
+
+.stores-links {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 1rem 0 0;
+  line-height: 1.6;
+}
+
+.stores-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.stores-links a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.stores-links .sep {
+  margin: 0 0.35rem;
+  color: var(--border);
+  user-select: none;
 }
 
 .btn-store {
