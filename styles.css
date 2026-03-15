@@ -113,12 +113,14 @@ body {
 
 .stores-regions {
   margin-top: 1.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
   text-align: left;
   max-width: 36rem;
 }
 
 .region-line {
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: var(--muted);
   margin: 0 0 0.5rem;
   line-height: 1.55;
