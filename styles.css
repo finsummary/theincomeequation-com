@@ -78,6 +78,9 @@ body {
 }
 
 .cover-wrap {
+  max-width: min(100%, 320px);
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 12px 40px var(--shadow), 0 0 0 1px var(--border);
@@ -87,8 +90,6 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-width: 320px;
-  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -152,11 +153,6 @@ body {
 .btn-store:hover {
   background: var(--border);
   color: var(--text);
-}
-
-/* If cover image fails to load, show minimum height */
-.cover-wrap:has(.cover-img) {
-  min-height: 320px;
 }
 
 /* About / tagline */
